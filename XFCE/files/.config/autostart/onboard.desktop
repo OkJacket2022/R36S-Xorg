@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Onboard
+Exec=onboard
+X-GNOME-Autostart-enabled=true
