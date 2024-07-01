@@ -40,6 +40,11 @@ A disk image has been made available with the device's installation and configur
 
 A 16GB or larger SD card is required. You might want to expand the EASYROMS partition after installing the .img file on the SD card (you can use MiniTool Partition Wizard Free to do this).
 
+The .img file can be downloaded here:
+
+> Version v1.0.0: https://archive.org/details/ark-os-r-35-s-r-36-s-v-2.0-05242024-p-4-xorg
+ 
+
 ### Installing on a existing SD card
 Clone or Download this repository as a zip file. Then copy the LXDE, LXQT, and/or XFCE folder to the **tools** folder in the **EASYROMS** partition. Insert the SD card into the R36S and navigate to options -> tools. To install each desktop environment, open the related INSTALL file and wait for the process to complete.
 
