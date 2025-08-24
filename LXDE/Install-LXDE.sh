@@ -62,7 +62,7 @@ if [ -f $progdir/swapfile ]; then
 
 else
 # create swap file
-    sudo dd if=/dev/zero of=$progdir/swapfile bs=1024 count=2097152 status=progress 
+    sudo fallocate -l 2G $progdir/swapfile
     sudo chmod 600 $progdir/swapfile
     sudo mkswap $progdir/swapfile
     # echo "$progdir/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab
